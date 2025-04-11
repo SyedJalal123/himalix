@@ -20,17 +20,17 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="img-box">
-                                    <img src="{{asset('images/slider-img.jpg')}}" alt="">
+                                    <img src="{{asset('images/product/main-1.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="img-box">
-                                    <img src="{{asset('images/slider-img.jpg')}}" alt="">
+                                    <img src="{{asset('images/product/main-1.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="img-box">
-                                    <img src="{{asset('images/slider-img.jpg')}}" alt="">
+                                    <img src="{{asset('images/product/main-1.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -66,7 +66,7 @@
             <div class="product_container">
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-1.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-1.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Face Wash And Cream</h5>
@@ -76,7 +76,7 @@
                 </div>
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-2.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-2.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Hand wash</h5>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-3.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-3.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Hair Oil</h5>
@@ -96,7 +96,7 @@
                 </div>
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-4.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-4.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Face Cream</h5>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-5.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-5.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Soap</h5>
@@ -116,7 +116,7 @@
                 </div>
                 <div class="box">
                     <div class="img-box">
-                        <img src="{{asset('images/p-6.jpg')}}" alt="">
+                        <img class="p-md-3" src="{{asset('images/product/prod-3.jpg')}}" alt="">
                     </div>
                     <div class="detail-box">
                         <h5>Body Oil</h5>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="img-box">
-                        <img src="{{asset('images/about-img.png')}}" alt="">
+                        <img src="{{asset('images/product/main-2.png')}}" alt="">
                     </div>
                 </div>
             </div>
