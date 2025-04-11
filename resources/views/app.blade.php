@@ -12,7 +12,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>Fooc</title>
+    <title>Himalix</title>
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.css')}}" />
