@@ -126,6 +126,7 @@
   .subscribe_section form button {
     transform: none;
     margin-top: 15px;
+    color: #ffffff;
   }
 
   .subscribe_section .box {
