@@ -74,7 +74,9 @@ body {
 .sub_page .hero_area {
   height: auto;
   background: none;
-  background-color: #e7cd20;
+  /* background-color: #e7cd20; */
+  background-color: #F7F7F7;
+
 }
 
 .sub_page .custom_menu-btn button span {

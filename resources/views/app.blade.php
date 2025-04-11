@@ -11,6 +11,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link rel="icon" type="image/png" href="{{asset('images/logo.png')}}">
 
     <title>Himalix</title>
 
@@ -21,20 +22,21 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,700&display=swap" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet" />
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet" />
     <!-- responsive style -->
     <link href="{{asset('css/responsive.css')}}" rel="stylesheet" />
 </head>
 
 <body @if(!request()->is('/')) class="sub_page" @endif>
 
-    <div class="hero_area ">
+    <div class="hero_area">
         @if(request()->is('/'))
             <!-- header section strats -->
             <header class="header_section">
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg custom_nav-container">
                         <a class="navbar-brand" href="{{url('/')}}">
-                            <span>HIMALIX</span>
+                            <img class="image" src="{{asset('images/logo.png')}}">
                         </a>
                         <div class="" id="">
                             <div class="User_option">
@@ -75,7 +77,7 @@
                 <div class="container-fluid">
                     <nav class="navbar navbar-expand-lg custom_nav-container">
                         <a class="navbar-brand" href="{{url('/')}}">
-                            <span>HIMALIX</span>
+                            <span class="text-black-50">HIMALIX</span>
                         </a>
                         <div class="" id="">
                             <div class="User_option">
@@ -175,7 +177,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <h6>
-                        About FOOC
+                        About HIMALIX
                     </h6>
                     <p>
                         consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

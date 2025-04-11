@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+    .navbar-brand .image {
+      width: 125px;
+      margin-left: 59px;
+      margin-top: 10px;
+    }
+  }

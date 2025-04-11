@@ -3,7 +3,7 @@
 @section('content')
     <!-- about section -->
 
-    <section class="about_section layout_padding">
+    <section class="about_section layout_padding mb-5">
       <div class="container">
         <div class="row">
           <div class="col-md-6">

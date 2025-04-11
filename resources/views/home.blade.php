@@ -214,7 +214,7 @@
     <section class="store_section layout_padding-bottom">
         <div class="container">
             <div class="heading_container">
-                <h2>The Best Fooc Store</h2>
+                <h2>The Best Himalix Store</h2>
             </div>
         </div>
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -279,7 +279,7 @@
                             <img src="{{asset('images/b-1.jpg')}}" alt="">
                         </div>
                         <div class="detail-box">
-                            <h3>New FOOC Products</h3>
+                            <h3>New HIMALIX Products</h3>
                             <p>
                                 It is a long established fact that a reader will be distracted by the readable content
                                 of a page when looking at its layout. The point of using Lorem
@@ -293,7 +293,7 @@
                             <img src="{{asset('images/b-2.jpg')}}" alt="">
                         </div>
                         <div class="detail-box">
-                            <h3>New FOOC Products</h3>
+                            <h3>New HIMALIX Products</h3>
                             <p>
                                 It is a long established fact that a reader will be distracted by the readable content
                                 of a page when looking at its layout. The point of using Lorem

@@ -3,10 +3,10 @@
 @section('content')
   <!-- blog section -->
 
-  <section class="blog_section layout_padding-bottom layout_padding2-top">
+  <section class="blog_section layout_padding-bottom layout_padding2-top mb-5">
     <div class="container">
       <div class="heading_container">
-        <h2>
+        <h2 class="text-white">
           Our Blog
         </h2>
       </div>
