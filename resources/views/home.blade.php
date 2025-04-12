@@ -58,108 +58,14 @@
 @section('content')
 
     <!-- product section -->
-    <section class="product_section layout_padding">
-        <div class="container">
-            <div class="heading_container">
-                <h2>Our Products</h2>
-            </div>
-            <div class="product_container">
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-1.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Face Wash And Cream</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-2.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Hand wash</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-3.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Hair Oil</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-4.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Face Cream</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-5.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Soap</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-                <div class="box">
-                    <div class="img-box">
-                        <img class="p-md-3" src="{{asset('images/product/prod-3.jpg')}}" alt="">
-                    </div>
-                    <div class="detail-box">
-                        <h5>Body Oil</h5>
-                        <h4><span>$</span>100</h4>
-                        <a href="">Buy Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="btn-box">
-                <a href="">See More</a>
-            </div>
-        </div>
-    </section>
+
+    @include('sections.product')
 
     <!-- end product section -->
 
     <!-- about section -->
 
-    <section class="about_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="detail-box">
-                        <div class="heading_container">
-                            <h2>About Our Product</h2>
-                        </div>
-                        <p>
-                            It is a long established fact that a reader will be distracted by the readable content of a
-                            page when looking at its layout. The point of using Lorem IpsumIt is a long established fact
-                            that a reader will be distracted by the readable content of a page when looking at its
-                            layout. The point of using Lorem Ipsum
-                        </p>
-                        <a href="">Read More</a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="img-box">
-                        <img src="{{asset('images/product/main-2.png')}}" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('sections.about')
 
     <!-- end about section -->
 
@@ -170,7 +76,7 @@
             <div class="row">
                 <div class="col-md-5">
                     <div class="img-box">
-                        <img src="{{asset('images/us-img.png')}}" alt="">
+                        <img src="{{asset('images/product/prod-6.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-md-7">
@@ -183,19 +89,19 @@
                                 <div class="number-box">
                                     <h5>01</h5>
                                 </div>
-                                <h6>It is a long established fact that a reader will be distracted</h6>
+                                <h6>Himalayan Shilajit boosts fertility, energy, libido, and supports detox.</h6>
                             </div>
                             <div class="text-box">
                                 <div class="number-box">
                                     <h5>02</h5>
                                 </div>
-                                <h6>It is a long established fact that a reader will be distracted</h6>
+                                <h6>Shilajit supports heart health, with protective effects noted in studies.</h6>
                             </div>
                             <div class="text-box">
                                 <div class="number-box">
                                     <h5>03</h5>
                                 </div>
-                                <h6>It is a long established fact that a reader will be distracted</h6>
+                                <h6>Shilajit clears toxins and boosts skin glow.</h6>
                             </div>
                         </div>
                         <div class="btn-box">
@@ -222,31 +128,31 @@
                 <div class="carousel-item active">
                     <div class="container">
                         <div class="img-box">
-                            <img src="{{asset('images/store-img.jpg')}}" alt="">
+                            <img src="{{asset('images/slider-1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>It is a long established fact that a reader will be distracted </h5>
+                        {{-- <h5>It is a long established fact that a reader will be distracted </h5> --}}
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
                         <div class="img-box">
-                            <img src="{{asset('images/store-img.jpg')}}" alt="">
+                            <img src="{{asset('images/slider-1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>It is a long established fact that a reader will be distracted </h5>
+                        {{-- <h5>It is a long established fact that a reader will be distracted </h5> --}}
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="container">
                         <div class="img-box">
-                            <img src="{{asset('images/store-img.jpg')}}" alt="">
+                            <img src="{{asset('images/slider-1.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>It is a long established fact that a reader will be distracted </h5>
+                        {{-- <h5>It is a long established fact that a reader will be distracted </h5> --}}
                     </div>
                 </div>
             </div>
@@ -265,7 +171,7 @@
 
     <!-- end store section -->
 
-    <!-- blog section -->
+    {{-- <!-- blog section -->
 
     <section class="blog_section layout_padding">
         <div class="container">
@@ -390,7 +296,7 @@
     </section>
 
 
-    <!-- end client section -->
+    <!-- end client section --> --}}
 
 
     <!-- contact section -->

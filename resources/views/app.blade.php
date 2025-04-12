@@ -61,7 +61,7 @@
                                     <a href="{{url('/')}}">Home</a>
                                     <a href="{{url('about')}}">About</a>
                                     <a href="{{url('catalog')}}">Products</a>
-                                    <a href="{{url('blog')}}">Blog</a>
+                                    {{-- <a href="{{url('blog')}}">Blog</a> --}}
                                     <a href="{{url('contact')}}">Contact Us</a>
                                 </div>
                             </div>
@@ -102,7 +102,7 @@
                                     <a href="{{asset('/')}}">Home</a>
                                     <a href="{{asset('about')}}">About</a>
                                     <a href="{{asset('catalog')}}">Products</a>
-                                    <a href="{{asset('blog')}}">Blog</a>
+                                    {{-- <a href="{{asset('blog')}}">Blog</a> --}}
                                     <a href="{{asset('contact')}}">Contact Us</a>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@
 
     <!-- subscribe section -->
 
-    <section class="subscribe_section mb-5">
+    <section class="subscribe_section mt-5 mb-5">
         <div class="container">
             <div class="box">
                 <div class="row">
@@ -180,8 +180,8 @@
                         About HIMALIX
                     </h6>
                     <p>
-                        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation u
+                        Our Shilajit is ISO and GMP certified, lab-tested by Eurofins, PCSIR, 
+                        and a US lab to ensure maximum purity, safety, and effectiveness.
                     </p>
                 </div>
                 <div class="col-md-2 offset-lg-1">
@@ -198,9 +198,9 @@
                         <li class="">
                             <a class="" href="{{url('catalog')}}">Products </a>
                         </li>
-                        <li class="">
+                        {{-- <li class="">
                             <a class="" href="{{url('blog')}}">Blog </a>
-                        </li>
+                        </li> --}}
                         <li class="">
                             <a class="" href="{{url('contact')}}">Contact Us</a>
                         </li>
@@ -209,21 +209,20 @@
                 <div class="col-md-3">
                     <h6>Useful Links</h6>
                     <ul>
-                        <li>
-                            <a href="">Adipiscing</a>
+                        <li class="">
+                            <a class="" href="{{url('/')}}">Home <span class="sr-only">(current)</span></a>
                         </li>
-                        <li>
-                            <a href="">Elit, sed</a>
+                        <li class="">
+                            <a class="" href="{{url('about')}}">About </a>
                         </li>
-                        <li>
-                            <a href="">do Eiusmod</a>
+                        <li class="">
+                            <a class="" href="{{url('catalog')}}">Products </a>
                         </li>
-                        <li>
-                            <a href="">Tempor</a>
-                        </li>
-                        <li>
-                            <a href="">incididunt</a>
-                        </li>
+                        {{-- <li class="">
+                            <a class="" href="{{url('blog')}}">Blog </a>
+                        </li> --}}
+                        <li class="">
+                            <a class="" href="{{url('contact')}}">Contact Us</a>
                     </ul>
                 </div>
                 <div class="col-md-4 col-lg-3">
@@ -233,7 +232,7 @@
                     <div class="info_link-box">
                         <a href="">
                             <img src="{{asset('images/location-white.png')}}" alt="">
-                            <span> No.123, loram ipusm</span>
+                            <span> D-11, Masood Arcade, Rawalpindi</span>
                         </a>
                         <a href="">
                             <img src="{{asset('images/call-white.png')}}" alt="">

@@ -1,7 +1,11 @@
 @media (min-width: 1024px) {
     .navbar-brand .image {
-      width: 125px;
+      width: 125px !important;
       margin-left: 59px;
       margin-top: 10px;
     }
-  }
+}
+
+.navbar-brand .image {
+  width: 90px;
+}
