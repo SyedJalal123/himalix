@@ -240,7 +240,7 @@
                         </a>
                         <a href="">
                             <img src="{{asset('images/mail-white.png')}}" alt="">
-                            <span> demo123@gmail.com</span>
+                            <span> info@himalix.online</span>
                         </a>
                     </div>
                 </div>
